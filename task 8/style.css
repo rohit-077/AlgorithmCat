@@ -1,0 +1,43 @@
+:root{ 
+	--primary:rgb(63,67,251),radial-gradient(circle, rgba(63,67,251,1) 6%, rgba(252,70,126,1) 88%);
+}
+;
+*{
+	padding: 0px !important ; /*to remove all the borders from all the contenst in the body section*/
+	margin:0px !important ; 
+	box-sizing: border-box !important ;
+	} 
+body{
+	color: white;
+	height: 100%; 
+	width: 100%;
+	} 
+.carousel-item img{ /*target the image tags inside the carousel item class,incase of multiple classes,you can always tag a single class selector*/
+	width: 100%; 
+	height: 60vh; /*the slider image would resize itself and no need to use img fluid incase you havent made any changes*/
+} 
+h5,button{ 
+	font-family: 'Patrick Hand', cursive;
+	font-size: 2rem;
+
+} 
+p, .accordion-body,h1,body{
+	font-family: 'Cardo', serif;
+
+} 
+.card{
+	margin-right: auto; 
+	margin-left: auto;
+}
+.card-team{
+	width: 15rem;
+}
+.color{
+	background: rgb(236,63,251);
+	background: radial-gradient(circle, rgba(236,63,251,1) 0%, rgba(70,111,252,1) 62%);
+} 
+.fontcolor{ 
+	color: rgb(236,63,251);
+	color: radial-gradient(circle, rgba(236,63,251,1) 0%, rgba(70,111,252,1) 62%);
+
+} 
